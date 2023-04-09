@@ -2,9 +2,9 @@
   "name": "boardgamestatistics",
   "version": "1.0.0",
   "description": "Board game's statistics",
-  "main": "index.js",
+  "homepage": "./",
   "scripts": {
-    "serve": "webpack serve --mode development",
+    "start": "webpack serve --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -25,6 +25,7 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.2.4",
     "style-loader": "^3.3.2",
