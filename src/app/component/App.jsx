@@ -1,5 +1,6 @@
 import React from "react";
 import { css } from "astroturf";
+import "../styles/varables.css";
 
 export const App = () => {
   return (
@@ -10,10 +11,10 @@ export const App = () => {
 };
 
 const test = css`
-  color: oklab(40% 0.001236 0.0039);;
+  color: var(--color-main);
   cursor: pointer;
 
   &:hover {
-    color: oklch(40% 0.268735435 34.568626);
+    color: var(--color-main-hover);
   }
 `;
